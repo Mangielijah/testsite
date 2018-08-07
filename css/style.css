@@ -1,0 +1,234 @@
+body, a{
+color:#003449;
+font-family: 'Ubuntu', sans-serif;
+}
+.container-fluid{
+    margin-left:0;
+    margin-right: 0;
+}
+
+/* Navigation bar */
+.navbar{
+    margin-bottom: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color:#003449; 
+}
+.navbar .navbar-toggler .navbar-toggler-icon{
+    
+   text-decoration-color:  #a1f1b9;
+}
+.nav-item{
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.nav-link{
+    color:#fff;
+    font-size: 14px;
+    padding-left:8px;
+    padding-right:8px;
+}
+.nav-link:hover{
+    color: #a1f1b9;
+    font-family: museo-w01-700, serif;
+}
+
+
+/* Section 1 */
+
+#section1{
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-bottom: 56px;
+}
+.cols{
+    padding: 5px;
+}
+.cols img{
+    width: 100%;
+}
+h4.title{
+    color:#003449;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 4px;
+    margin-left: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+p.detail{
+    color:#003449;
+    font-size:13px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+}
+
+
+/* Section 2 */
+
+#section2{
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-bottom: 56px;
+}
+h3{
+    color:#003449;
+    font-size: 24px;
+    padding-top: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+div.news-item{
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.except{
+    font-size: 16px;
+}
+.date{
+    font-size: 10px;
+}
+.col-list{
+    margin-bottom: 16px;
+}
+
+ul.item-list li{
+list-style-type: none;
+margin-bottom: 36px;
+}
+.list-text{
+    font-size: 24px;
+}
+.button1{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    text-align: center;
+    padding-left:76px;
+    text-decoration: underline;
+    padding-right: 76px;
+    font-size:22px;
+    background-color:#d5eef1;;
+    font-family: 'Ubuntu', sans-serif;
+}
+.button2{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    text-align: center;
+    padding-left:36px;
+    padding-right: 36px;
+    font-size:22px;
+    background-color:#003449;
+    font-family: 'Ubuntu', sans-serif;
+    color:#a1f1b9;
+}
+.button2:hover{
+    color:#fff;
+    text-decoration: none;
+}
+.button1:hover{
+ color:#003449;
+}
+
+
+
+/* Help section  */
+
+#help{
+    border:3px solid;
+    border-top-color: #003449;
+    border-bottom-color: #003449;
+    margin-bottom: 18px;
+}
+.help-bk{
+    border:1px solid;
+    border-left: none;
+    border-right: none;
+    border-top-color: #003449;
+    border-bottom-color: #003449;
+    background: #d5eef1;
+}
+#help .help-bk{
+    margin-top:8px;
+    margin-bottom: 8px;
+
+}
+.help-sec-title{
+    margin-top: 24px;
+    padding-bottom: 5px;
+    margin-left: 48px;
+    width: 400px;
+    text-align: center;
+    border-bottom: 1px solid #003449;
+    margin-bottom: 24px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.help-title{
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+#help-text{
+    margin-left:48px;
+    font-size:18px;
+}
+.email{
+    text-decoration: underline;
+}
+
+/*  Footer Section */
+#footer{
+    background: #eaeef0;
+    padding-left: 125px;
+    padding-right: 125px;
+
+}
+#footer .container{
+background: #fff;
+border-top:1px solid black;
+border-bottom:1px solid black;
+margin-bottom: 24px;    
+padding-top:18px;
+
+}
+#footer .container .row{
+    margin-top:20px;
+    margin-bottom: 36px;
+}
+.btn-donate{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    padding-left:28px;
+    padding-right: 28px;
+    margin-right: 56px;
+    font-size:28px;
+    background-color:rgba(189, 21, 21, 1);
+    color:#fff;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 200;
+    cursor: pointer !important;
+}
+.social-links img{
+    margin-left:8px;
+    margin-right: 8px;
+}
+.social-links #signup{
+    margin-left:48px;
+    font-size:30px;
+    padding-left:5px;
+    padding-right: 5px;
+    background: #d5eef1;
+}
+
+.social-links #signup:hover{
+    background: #fff;
+    text-decoration: none;
+    color:#003449;
+}
+footer{
+    margin-bottom: 200px;
+    padding-left: 150px;
+    font-size: 12px;
+}
